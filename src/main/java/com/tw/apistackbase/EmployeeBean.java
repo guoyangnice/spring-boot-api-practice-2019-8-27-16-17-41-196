@@ -6,7 +6,7 @@ public class EmployeeBean {
 	private int age;
 	private String gender;
 	private int salary;
-	public String belongCompanyId;
+	public int belongCompanyId;
 	
 	public EmployeeBean() {
 		
@@ -52,15 +52,15 @@ public class EmployeeBean {
 		this.salary = salary;
 	}
 
-	public String getBelongCompanyId() {
+	public int getBelongCompanyId() {
 		return belongCompanyId;
 	}
 
-	public void setBelongCompanyId(String belongCompanyId) {
+	public void setBelongCompanyId(int belongCompanyId) {
 		this.belongCompanyId = belongCompanyId;
 	}
 
-	public EmployeeBean(int id, String employeeName, int age, String gender, int salary, String belongCompanyId) {
+	public EmployeeBean(int id, String employeeName, int age, String gender, int salary, int belongCompanyId) {
 		this.id = id;
 		this.employeeName = employeeName;
 		this.age = age;
